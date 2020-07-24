@@ -5,7 +5,7 @@ exercises: 0
 objectives:
 - "Drink Coffee"
 questions:
-- "How awesome is coffee?"
+- "COFFEE"
 keypoints:
 - "Breaks are great"
 ---

@@ -9,7 +9,7 @@ objectives:
 questions:
 - "How do I create a simple repository?"
 keypoints:
-- "_Always_ add a `README.md` file to your repositry"
+- "_Always_ add a `README.md` file to your repository"
 - "Write verbose and useful commit messages."
 
 
@@ -80,13 +80,13 @@ be versioned.  Gitlab only saves the stuff that we put in
 this subdirectory.
 
 ~~~
-mkdir dan-example
-cd dan-example
+mkdir amber-example
+cd amber-example
 git init
 ~~~
 {: .source}
 
-Where you should replace `dan` with your name. You should see
+Where you should replace `amber` with your name. You should see
 something like
 
 ~~~
@@ -100,7 +100,7 @@ intentions here: in general commiting nothing at all is a mistake.
 
 > ## Name your repository carefully
 >
-> In general you shouldn't make a repository called `dan-example`. We've
+> In general you shouldn't make a repository called `amber-example`. We've
 > chosen this name to make it clear that this should be _your_ example with
 > _your_ unique name. Our reason for this is pedagogical: we want everyone
 > to develop their own code, but we also want you to be able to fork your
@@ -219,7 +219,7 @@ git commit -m "Add README file" -m "And a pretty poor README at that"
 In general git will force you to create a commit message. You should
 [try to write _good_ commit messages][good],
 since this helps everyone understand what you were doing. In this case
-it's pretty self-explanatory, but in many real-world examples a commit
+it's pretty self-explanitory, but in many real-world examples a commit
 might just change one line deep inside your code. A commit message is
 a very good way to explain _why_ you decided to make this change.
 

@@ -51,14 +51,14 @@ git remote -v
 should print something like
 
 ~~~
-origin	ssh://git@gitlab.cern.ch:7999/dguest/sam-example.git (fetch)
-origin	ssh://git@gitlab.cern.ch:7999/dguest/sam-example.git (push)
+origin	ssh://git@gitlab.cern.ch:7999/aroepe/robin-example.git (fetch)
+origin	ssh://git@gitlab.cern.ch:7999/aroepe/robin-example.git (push)
 ~~~
 {: .output}
 
 From the part after the second to rightmost slash you can tell that:
-- This is _your_ fork (`dguest/`)
-- This is from your friend's example code (`sam-example`)
+- This is _your_ fork (`aroepe/`)
+- This is from your friend's example code (`robin-example`)
 
 > ## Exercise: add another remote
 >
@@ -115,7 +115,7 @@ This should bring up a "New Merge Request" dialog.
 >   commit.
 >
 >   It's also good practice to "mention" people who might be interested
->   by using `@username`, i.e. `@meehan`. Gitlab will automatically
+>   by using `@username`, i.e. `@rnewhous`. Gitlab will automatically
 >   notify them.
 >
 > - Most of the other boxes you don't need to touch

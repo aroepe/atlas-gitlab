@@ -1,4 +1,4 @@
----
+A---
 title: "Creating the remote repository"
 teaching: 10
 exercises: 15
@@ -32,7 +32,7 @@ This will bring you to a dialog page to create the project. The important
 fields are:
  - The "project name": in principal this can be anything, but to make
    things less confusing we'd recommend using the same name you used
-   locally. In this example this is `dan-example`.
+   locally. In this example this is `amber-example`.
  - The "visibility level", there are three levels allowed:
     - Private: only you and people you "share" the project with are
       allowed to see it.

@@ -155,8 +155,8 @@ You want to do this so that if a colleague of yours clones your repository, they
 of debugging your code that was checked in hastily after "just making that one small change" that actually broke
 things and caused a segfault later on.  Don't be "that colleague".
 <!-- If you're not already in an `AnalysisBase` image, move into the -->
-<!-- directory that _contains_ `dan-example` and run -->
-Next `cd` to `/home/atlas/Bootcamp`. You should see `dan-example`
+<!-- directory that _contains_ `amber-example` and run -->
+Next `cd` to `/home/atlas/Bootcamp`. You should see `amber-example`
 here.
 
 [^2]: Running these tests for every commit can get tedious, later this
@@ -170,7 +170,7 @@ directory which is _on the same level_ as your code repository. Create the build
 mkdir build
 cd build
 source ~/release_setup.sh
-cmake ../dan-example
+cmake ../amber-example
 make
 ~~~
 {: .bash}

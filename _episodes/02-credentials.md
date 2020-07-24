@@ -21,7 +21,7 @@ hidden: false
 
 > ## This episode assumes
 >
-> - You're familear with `git add` and `git commit`
+> - You're familiar with `git add` and `git commit`
 > - You already have an example local repository with a README file
 {: .prereq}
 

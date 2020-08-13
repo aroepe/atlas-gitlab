@@ -25,7 +25,7 @@ to code back to the original authors. Once you are comfortable with this procedu
 you will be in a position to start contributing to the ATLAS Athena code base
 using the same procedure, described [here](https://atlassoftwaredocs.web.cern.ch/gittutorial/).
 If you've contributed to open source projects on github the procedure should be familiar, with a few
-"gitlab" specific differences.
+"GitLab" specific differences.
 
 > ## Friendtime activity!
 >
@@ -66,7 +66,7 @@ From the part after the second to rightmost slash you can tell that:
 >
 > > ## Hint
 > > you should be able to navigate to it from the "project" section
-> > of the your fork on gitlab, click the little house on the upper left.
+> > of the your fork on GitLab, click the little house on the upper left.
 > > From there you should see the parent repo that you forked from.
 > {: .solution}
 {: .challenge}
@@ -115,7 +115,7 @@ This should bring up a "New Merge Request" dialog.
 >   commit.
 >
 >   It's also good practice to "mention" people who might be interested
->   by using `@username`, i.e. `@rnewhous`. Gitlab will automatically
+>   by using `@username`, i.e. `@rnewhous`. GitLab will automatically
 >   notify them.
 >
 > - Most of the other boxes you don't need to touch
@@ -137,9 +137,9 @@ explore the options for feedback that this interface offers: right now
 you're in the same room but when your collaborators are remote this is
 _much_ more convenient than sending an email.
 
-> ## Exercise: Use Fancy Gitlab Merge Request Features
+> ## Exercise: Use Fancy GitLab Merge Request Features
 >
-> Gitlab offers quite a few features for merge requests. Try to do the
+> GitLab offers quite a few features for merge requests. Try to do the
 > following:
 >  1. Review the "changes" by clicking "changes" tab in the middle of
 >     the page
@@ -156,7 +156,7 @@ _much_ more convenient than sending an email.
 >     this. Then click the "merge" button.
 {: .challenge}
 
-Your gitlab remote repository should now be updated with your friend's
+Your GitLab remote repository should now be updated with your friend's
 addition. To get these changes into your `master` branch, you'll have
 to copy your local repository, and _then_ merge them. First copy them
 with `fetch`.

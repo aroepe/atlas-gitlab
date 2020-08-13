@@ -28,7 +28,7 @@ ATLAS follows a slightly more [web-gui--focused workflow][athena] which you
 _might_ have seen if you've ever contributed to a project on
 github. The general idea is to:
 
-- "Fork" your friend's repository directly using the gitlab GUI
+- "Fork" your friend's repository directly using the GitLab GUI
 - Make your local changes and push them to your fork
 - Make a "merge request" to ask your friend to review / accept your
   changes.
@@ -57,7 +57,7 @@ right (next to the big blue clone button we used before).
 
 Once forking has finished, you can "clone" your fork as you did
 before, but being sure to pull the URL of the repository that you just cloned
-as opposed to the one directly on their Gitlab repo. Do this from the `Bootcamp` directory:
+as opposed to the one directly on their GitLab repo. Do this from the `Bootcamp` directory:
 
 ~~~
 git clone path/to/friends/repo

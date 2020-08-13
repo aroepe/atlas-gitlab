@@ -15,13 +15,13 @@ hidden: false
 
 > ## This episode assumes
 >
-> - You've uploaded your public key to gitlab and verified that it's working
+> - You've uploaded your public key to GitLab and verified that it's working
 {: .prereq}
 
-In this episode we'll finally push _something_ to a public gitlab
+In this episode we'll finally push _something_ to a public GitLab
 repository.
 
-## Creating an empty repository on gitlab
+## Creating an empty repository on GitLab
 
 Go to [gitlab.cern.ch][gitlab] and click the little "plus" dropdown icon near the center
 of the top bar, and select "New project".
@@ -44,7 +44,7 @@ fields are:
 
    Note that there is no option here to make projects
    "ATLAS-only", which is fine: our code is all public anyway.[^1] More on
-   permissions can be found [on gitlab's docs][gitlabperm].
+   permissions can be found [on GitLab's docs][gitlabperm].
 
  - The "**Initialize repository with a README**" checkbox. Do **not**
    check this, we'll upload the readme from your local repository.
@@ -56,7 +56,7 @@ The "project description" might be useful, but in general this should be explain
     [twiki sandbox][sandbox] or by adding twikis to your gitlab
     repositories. [Our _physics_ documentation][atlasphys] is internal
     until approved. Within the physics repositories we use LDAP to
-    periodically synchronize the gitlab user list with
+    periodically synchronize the GitLab user list with
     [e-groups][egroups]. The procedure is slow error-prone so we won't
     discuss it here.
 
@@ -99,7 +99,7 @@ git push -u origin master
 ~~~
 {: .source}
 
-Once this is done, refresh the browser in your gitlab page. You should
+Once this is done, refresh the browser in your GitLab page. You should
 see your README now!
 
 [gitlab]: https://gitlab.cern.ch

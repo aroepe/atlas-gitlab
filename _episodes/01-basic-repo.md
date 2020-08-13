@@ -4,7 +4,7 @@ teaching: 10
 exercises: 10
 objectives:
 - "Remind you how to create a _very basic_ repository"
-- "Add your credentials to CERN's Gitlab"
+- "Add your credentials to CERN's GitLab"
 - "Push your simple `README.md`"
 questions:
 - "How do I create a simple repository?"
@@ -17,7 +17,7 @@ hidden: false
 ---
 
 In this episode we hope to demonstrate that "publishing" anything via
-CERN gitlab is extremely easy.
+CERN GitLab is extremely easy.
 
 ## Create a base directory
 
@@ -40,7 +40,7 @@ I keep my ATLAS projects under a directory called `~/work` but you can
 adjust this as you see fit.
 
 ~~~
-mkdir ~/work/bootcamp
+mkdir -p ~/work/bootcamp
 cd ~/work/bootcamp
 ~~~
 {: .source}
@@ -55,9 +55,28 @@ We'll do our work from here. That means we'll need:
 If you don't have this file locally, you need to download it:
 
 ~~~
+mkdir data
+cd data
 wget https://cernbox.cern.ch/index.php/s/YXbCrQkwnZuc3yU/download
+mv download DAOD_EXOT27.17882744._000026.pool.root.1
+cd ..
 ~~~
-{: .bash}
+{: .source}
+
+
+> ## If you didn't do your homework
+>
+> You _really_ should set up the pre-workshop material.
+> But we can continue by cloning it now and removing the `.git` directory.
+>
+> ~~~
+> git clone ssh://git@gitlab.cern.ch:7999/usatlas-computing-bootcamp/v1-prework-finished-code.git pre-workshop
+rm -rf pre-workshop/.git/
+> ~~~
+> {: .source}
+>
+{: .callout}
+
 
 You can check your working directory with `tree .`. I get something like
 
@@ -76,7 +95,7 @@ You can check your working directory with `tree .`. I get something like
 
 Now let's create a git repository. We create this in a _subdirectory_
 of the working directory, because not everything we're working on will
-be versioned.  Gitlab only saves the stuff that we put in
+be versioned.  GitLab only saves the stuff that we put in
 this subdirectory.
 
 ~~~
@@ -199,7 +218,7 @@ Changes to be committed:
 > In the Git session you had to configure git to add your name and
 > email to every commit, using `git config`. We'd recommend you use your
 > CERN account email and name so that the names on local commits match the
-> ones you'll create via gitlab.
+> ones you'll create via GitLab.
 >
 > To change this you can run
 > ~~~
@@ -232,6 +251,6 @@ If you need something more verbose, you can use the contents of a text
 file with `git commit -F file.txt`.
 
 This all might be review, but next the real fun begins: we'll push
-this repository to gitlab.
+this repository to GitLab.
 
 [good]: https://chris.beams.io/posts/git-commit/

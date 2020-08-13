@@ -103,6 +103,8 @@ whatever your friend called their repository.
       `friend-username/repo-name`, and `master`
  - click the green "compare branches and continue"
 
+<img src="{{ page.root }}/fig/open-merge-request.png" alt="Open Merge Request" width="100%" />
+
 This should bring up a "New Merge Request" dialog.
 
 > ## Merge Request Fields
@@ -155,6 +157,10 @@ _much_ more convenient than sending an email.
 >     to the "discussion" tab and make a comment to document
 >     this. Then click the "merge" button.
 {: .challenge}
+
+<a href="{{ page.root }}/fig/mr-comments.png">
+  <img src="{{ page.root }}/fig/mr-comments.png" alt="Merge Request Comments" width="50%" />
+</a>
 
 Your GitLab remote repository should now be updated with your friend's
 addition. To get these changes into your `master` branch, you'll have

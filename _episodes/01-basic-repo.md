@@ -51,8 +51,9 @@ We'll do our work from here. That means we'll need:
   ~~~
   data/DAOD_EXOT27.17882744._000026.pool.root.1
   ~~~
+  - If you don't have this data file, there are instructions to download it a later section
 
-If you don't have this file locally, you need to download it:
+<!-- If you don't have this file locally, you need to download it:
 
 ~~~
 mkdir data
@@ -61,7 +62,7 @@ wget https://cernbox.cern.ch/index.php/s/YXbCrQkwnZuc3yU/download
 mv download DAOD_EXOT27.17882744._000026.pool.root.1
 cd ..
 ~~~
-{: .source}
+{: .source} -->
 
 
 > ## If you didn't do your homework
@@ -158,7 +159,7 @@ I will make my code modular.
 I will introduce few dependencies.
 When my project dies the pieces will be recycled by my collegues.
 If I code poorly, they will curse me.
-If I code well, they will prase me.
+If I code well, they will praise me.
 ~~~
 {: .language-markdown}
 

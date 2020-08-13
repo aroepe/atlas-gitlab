@@ -1,4 +1,4 @@
-A---
+---
 title: "Creating the remote repository"
 teaching: 10
 exercises: 15
@@ -24,9 +24,11 @@ repository.
 ## Creating an empty repository on GitLab
 
 Go to [gitlab.cern.ch][gitlab] and click the little "plus" dropdown icon near the center
-of the top bar, and select "New project".
+of the top bar, and select "New project". 
 
 [gitlab]: gitlab.cern.ch
+
+<img src="{{ page.root }}/fig/gitlab-new.png" alt="New Project" width="25%" />
 
 This will bring you to a dialog page to create the project. The important
 fields are:
@@ -39,7 +41,7 @@ fields are:
     - Internal: **everyone with a CERN account** can see the
       project. This will _not_ hide anything from e.g. CMS.
     - Public (**use this**): everyone with the URL can see the
-      project. Unless someone holds a gun to your head _everything_
+      project. Unless someone really insists, _everything_
       should be public.
 
    Note that there is no option here to make projects
@@ -65,6 +67,10 @@ The "project description" might be useful, but in general this should be explain
 [atlasphys]: https://gitlab.cern.ch/atlas-phys
 [gitlabperm]: https://docs.gitlab.com/ee/user/permissions.html
 
+<a href="{{ page.root }}/fig/new-project.png">
+  <img src="{{ page.root }}/fig/new-project.png" alt="New Project" width="50%" />
+</a>
+
 Click the "Create Project" button on the bottom. You should be
 presented with a page that gives the name of the project and says "The
 repository for this project is empty".
@@ -81,6 +87,9 @@ authentication scheme than ssh by default, so these can be confusing.
 Click the blue "clone" button on the upper right side of the page. It
 will give you multiple options, click the "copy URL to clipboard"
 button next to "Clone with SSH".
+
+<img src="{{ page.root }}/fig/clone-with-ssh.png" alt="New Project" width="30%" />
+
 
 Now you need to go back to your terminal and tell your _local_
 repository that a _remote_ repository lives at this URL.

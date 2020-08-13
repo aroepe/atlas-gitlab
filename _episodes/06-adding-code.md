@@ -80,6 +80,10 @@ commit ahead of master.
 > Now, unfortunately some people still do this.  We will pick on the luminosity group in this instance [gonzales/mblumi](https://gitlab.cern.ch/gonzales/mblumi).
 > If you find a colleague is doing this, please try to educate them. #greatergood
 >
+> <br>
+>
+> As an alternative, try storing your large data files in your EOS space wich maps automatically to [CERNBox](https://cernbox-manual.web.cern.ch/cernbox-manual/en/).
+>
 {: .callout}
 
 ## Set up the ATLAS environment

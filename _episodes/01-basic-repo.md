@@ -126,24 +126,16 @@ For now we'll describe what you're doing here. Add something like this
 ATLAS Software Bootcamp
 -----------------------
 
-This is my bootcamp project.
-There are many others like it but this one is mine.
-Without my project, I am useless. Without me, my project is useless.
+This is the README file for our bootcamp project.
 
-I will code clearly and simply.
-I will document enough that my collegues may follow my work,
-but not so excessively as to frighten them with walls of text.
+Let's add some sugar and spice with Cupcake Ipsum!
 
-All code will eventually need to die. I will write my code knowing this.
-I will make my code modular.
-I will introduce few dependencies.
-When my project dies the pieces will be recycled by my collegues.
-If I code poorly, they will curse me.
-If I code well, they will prase me.
+Cupcake ipsum dolor sit amet gummi bears chocolate bar bear claw cake. Carrot cake pie donut croissant lollipop I love jujubes. Marshmallow I love muffin. Donut lollipop candy canes dragée wafer liquorice chocolate.
+
 ~~~
 {: .language-markdown}
 
-and save the file. (Note from Sam: please don't confuse [Hoo-rah and Oorah](https://www.hopeforthewarriors.org/newsroom/oorah-v-hoora/)) Let's ask git what is sees now:
+and save the file. (ipsum text generated at [Cupcake Ipsum](https://www.cupcakeipsum.com)) Let's ask git what is sees now:
 
 ~~~
 git status

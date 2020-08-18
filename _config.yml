@@ -29,7 +29,7 @@ kind: "lesson"
 repository: <USERNAME>/<PROJECT>
 
 # Email address, no mailto:
-email: "dguest@cern.ch"
+email: "amber.rebecca.roepe@cern.ch"
 
 # Sites.
 amy_site: "https://amy.carpentries.org/workshops"

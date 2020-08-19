@@ -13,7 +13,7 @@ permalink: index.html  # Is the only page that doesn't follow the pattern /:path
 >
 > 1. How to get a local repository, in two ways
 >     * using `git init`
->     * by cloning from github
+>     * by cloning from GitHub
 >
 > 2. How to `branch`, `add` changes, `commit` them, and `push`
 > 3. The basics of creating a merge request
@@ -27,12 +27,12 @@ permalink: index.html  # Is the only page that doesn't follow the pattern /:path
 Introduction
 ------------
 
-In ATLAS we use use [Gitlab](https://about.gitlab.com/)---basically an open-source replica of Github---to host our code.
+In ATLAS we use use [GitLab](https://about.gitlab.com/)---basically an open-source replica of GitHub---to host our code.
 Superficially the two have some confusing differences:
 
 - The website layouts won't match and you may need to click differently to get the same buttons.
-- Gitlab is .com and owned/hosted by Microsoft, whereas ATLAS's Gitlab is a cern-hosted instance of an open-source project ([https://gitlab.cern.ch/](https://gitlab.cern.ch/))
-- Github encourages "pull requests" while in Gitlab you must make "merge requests"
+- GitHub is .com and owned/hosted by Microsoft, whereas ATLAS's GitLab is a cern-hosted instance of an open-source project ([https://gitlab.cern.ch/](https://gitlab.cern.ch/))
+- GitHub encourages "pull requests" while in GitLab you must make "merge requests"
 
 Fortunately, beyond this veneer the core concepts are nearly identical so everything you learned from the [Software Carpentry lesson](http://swcarpentry.github.io/git-novice/) applies.
 The aim of this module is to expand on some concepts you learned in the morning and highlight a few of what we consider to
@@ -40,7 +40,7 @@ be essential skills to anyone working in ATLAS.
 
 > ## The skills we'll focus on:
 >
-> 1.  The basic setup for CERN Gitlab
+> 1.  The basic setup for CERN GitLab
 > 2.  Creating a new repository for your AnalysisPayload from the [pre-workshop material](https://adjackp.github.io/pre-workshopMaterial/)
 > 3.  Adding credentials
 > 4.  Forking an existing repository so you can use it "like its your own"

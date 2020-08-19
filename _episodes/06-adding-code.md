@@ -5,7 +5,7 @@ exercises: 10
 objectives:
 - "Add the rest of your ATLAS code"
 - "Compile and test it within the ATLAS environment"
-- "Push the code to gitlab"
+- "Push the code to GitLab"
 questions:
 - "How do I add to an existing project?"
 keypoints:
@@ -17,7 +17,7 @@ hidden: false
 
 > ## This episode assumes
 >
-> - You've uploaded a readme to gitlab
+> - You've uploaded a readme to GitLab
 > - You did the pre-workshop material
 > - You downloaded the test file. Note you can download it with
 >   ~~~
@@ -80,17 +80,21 @@ commit ahead of master.
 > Now, unfortunately some people still do this.  We will pick on the luminosity group in this instance [gonzales/mblumi](https://gitlab.cern.ch/gonzales/mblumi).
 > If you find a colleague is doing this, please try to educate them. #greatergood
 >
+> <br>
+>
+> As an alternative, try storing your large data files in your EOS space wich maps automatically to [CERNBox](https://cernbox-manual.web.cern.ch/cernbox-manual/en/).
+>
 {: .callout}
 
 ## Set up the ATLAS environment
 
 Remember that we created some keys in the `~/.ssh` directory a while
-back? We're going to need to use these to push code updates to gitlab while in the
+back? We're going to need to use these to push code updates to GitLab while in the
 docker container where we run ATLAS code.
 
 First copy the keys into the `Bootcamp` directory, make _sure_ you do
 this from the `Bootcamp` directory and **not** from the
-`bootcamp-example` code, which is going to be versioned (i.e. it would suck to accidentally push all the contents of your .ssh directory to gitlab). Also copy
+`bootcamp-example` code, which is going to be versioned (i.e. it would suck to accidentally push all the contents of your .ssh directory to GitLab). Also copy
 your git configuration file, so that your commits include your name
 and email.
 

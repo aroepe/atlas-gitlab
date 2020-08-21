@@ -52,6 +52,6 @@ be essential skills to anyone working in ATLAS.
 <a href="{{https://matthewfeickert.github.io/usatlas-computing-bootcamp-2020/}}">
     <button type="button" class="btn btn-info" style="text-align:center">US ATLAS Computing Workshop 2020</button>
 </a>
-</div.
+</div>
 {% include links.md %}
 

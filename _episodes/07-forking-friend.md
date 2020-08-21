@@ -28,7 +28,7 @@ ATLAS follows a slightly more [web-gui--focused workflow][athena] which you
 _might_ have seen if you've ever contributed to a project on
 github. The general idea is to:
 
-- "Fork" your friend's repository directly using the gitlab GUI
+- "Fork" your friend's repository directly using the GitLab GUI
 - Make your local changes and push them to your fork
 - Make a "merge request" to ask your friend to review / accept your
   changes.
@@ -55,9 +55,11 @@ able to navigate to friend's github repository via your browser. You
 can "fork" their code by clicking the "fork" button on the upper
 right (next to the big blue clone button we used before).
 
+<img src="{{ page.root }}/fig/fork-button.png" alt="Fork Button" width="50%" />
+
 Once forking has finished, you can "clone" your fork as you did
 before, but being sure to pull the URL of the repository that you just cloned
-as opposed to the one directly on their Gitlab repo. Do this from the `Bootcamp` directory:
+as opposed to the one directly on their GitLab repo. Do this from the `Bootcamp` directory:
 
 ~~~
 git clone path/to/friends/repo
@@ -117,7 +119,7 @@ Since we're working collaboratively, we'll have you add these cuts to your frien
 ### Duplicating histograms
 
 Before we do that let's add another set of histograms so we can make
-both selections at the same time. Go through `AnalysisPayload` and
+both selections at the same time. Go through `AnalysisPayload.cxx` and
 create a second set of histograms where you've replaced `*_raw` with
 `*_kin`, i.e.
 

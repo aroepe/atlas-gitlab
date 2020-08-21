@@ -3,7 +3,7 @@ title: "Credentials"
 teaching: 10
 exercises: 15
 objectives:
-- "Add your credentials to CERN's Gitlab"
+- "Add your credentials to CERN's GitLab"
 questions:
 - "How do I add my credentials?"
 keypoints:
@@ -14,7 +14,7 @@ hidden: false
 
 > ## **NOTE:** This is also documented elsewhere
 >
-> See [the gitlab documentation on the same topic][gitlab-keys]
+> See [the GitLab documentation on the same topic][gitlab-keys]
 {: .callout}
 
 [gitlab-keys]: https://gitlab.cern.ch/help/ssh/README
@@ -25,9 +25,9 @@ hidden: false
 > - You already have an example local repository with a README file
 {: .prereq}
 
-In this episode we'll finally get to putting something in gitlab. Of
-course if you're going to put something on gitlab, you have to have a
-way to convince gitlab who you are. This is where authentication comes
+In this episode we'll finally get to putting something in GitLab. Of
+course if you're going to put something on GitLab, you have to have a
+way to convince GitLab who you are. This is where authentication comes
 in.
 
 ## Authentication: Several Options
@@ -38,9 +38,9 @@ that you want to use.  Each of these has benefits and drawbacks.
 ### Passwords (`https:`)
 
 This is probably the method you're most familiar with: every time you
-interact with gitlab, you'll be prompted to enter a password. This is
+interact with GitLab, you'll be prompted to enter a password. This is
 the authentication method when you use "`https`" to communicate with
-gitlab.
+GitLab.
 
 **Advantages:**
 - Ubiquitous: everyone understands the concept
@@ -55,7 +55,7 @@ gitlab.
 - Insecure: passwords always end up being leaked _by other services_.
 
 Note that while the communication is [technically encrypted][https],
-the only way that gitlab can identify _you_ is through your password.
+the only way that GitLab can identify _you_ is through your password.
 It turns out that there are much smarter ways to do this.
 
 [https]: https://www.howtogeek.com/181767/htg-explains-what-is-https-and-why-should-i-care/
@@ -67,12 +67,12 @@ worth reading the [wikipedia page on the subject][asymcrypto]. In
 essence it's a bit of cryptograpic magic that enables secure
 communication without ever letting your "password" leave your
 laptop. Instead you'll generate a key pair: the "private" key lives on
-your laptop, while the "public" one gets uploaded to gitlab.
+your laptop, while the "public" one gets uploaded to GitLab.
 
-In gitlab, this is supported via the "`ssh`" authentication method.
+In GitLab, this is supported via the "`ssh`" authentication method.
 
 **Advantages:**
-- Very secure: all gitlab ever sees is your public key, and no one can
+- Very secure: all GitLab ever sees is your public key, and no one can
   steal your identity with your public key (it's already public!)
 - Painless after the initial setup
 - Second in popularity to passwords: most servers (and github) support
@@ -80,7 +80,7 @@ In gitlab, this is supported via the "`ssh`" authentication method.
 
 **Disadvantages:**
 - Requires that you generate a key pair (one time)
-- Requires you to upload a public key to gitlab
+- Requires you to upload a public key to GitLab
 - Your private key has to accessible on your local system
 
 Since it's more secure than passwords, automated transactions via
@@ -151,8 +151,8 @@ Note the `test@cern.ch` at the end.
 > This isn't always practical: sometimes you might need your private key on a server somewhere, for example.
 >
 > But if your private key becomes compromised, you'll have to delete your private key everywhere to make sure no steals your identy.
-> You can make this slightly less likely by generating a key _just for gitlab_. Instead of using the default key location, use something like `~/.ssh/gitlab`.
-> Then tell your computer to use the gitlab key when connecting to Gitlab by adding this to your `.ssh/config` file:
+> You can make this slightly less likely by generating a key _just for GitLab_. Instead of using the default key location, use something like `~/.ssh/gitlab`.
+> Then tell your computer to use the GitLab key when connecting to GitLab by adding this to your `.ssh/config` file:
 > ~~~
 > Host gitlab.cern.ch
 >  User git
@@ -163,11 +163,11 @@ Note the `test@cern.ch` at the end.
 {: .callout}
 
 Now that you have the keypair, we'll have to upload the _public_ key
-to Gitlab.
+to GitLab.
 
 ## Uploading your public key
 
-You can upload your key [via the gitlab interface][gitlab-key]. The
+You can upload your key [via the GitLab interface][gitlab-key]. The
 instructions there should be pretty clear: open the `.ssh/*.pub` file
 with your text editor, and copy it into the "key" field. Give the key
 a name that describes where it came from, i.e. "laptop ssh key".

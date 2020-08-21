@@ -3,23 +3,23 @@ title: "Cloning"
 teaching: 5
 exercises: 5
 objectives:
-- "Delete and re-clone your gitlab project"
+- "Delete and re-clone your GitLab project"
 questions:
 - "How do I clone an existing project"
 keypoints:
-- "Once you've pushed to gitlab, your code is backed up!"
+- "Once you've pushed to GitLab, your code is backed up!"
 
 hidden: false
 ---
 
 > ## This episode assumes
 >
-> - You've uploaded a readme to gitlab
+> - You've uploaded a readme to GitLab
 {: .prereq}
 
 ## Delete your local repository (!)
 
-First, **make sure your repository on gitlab is there!**
+First, **make sure your repository on GitLab is there!**
 
 Now let's do something super careless: go to the directory above your repository and run
 
@@ -58,8 +58,8 @@ Poof: gone just like that! This is a contrived case but this _will_ happen to yo
 
 ## Bring your local repository back
 
-Good thing we just pushed to gitlab. Let's clone the repository
-again. Go to your ''`amber-example`'' repository on gitlab again, click
+Good thing we just pushed to GitLab. Let's clone the repository
+again. Go to your ''`amber-example`'' repository on GitLab again, click
 "Clone" button again and copy the "Clone with SSH" url. Then run
 
 ~~~
@@ -71,7 +71,7 @@ You should be back where you were before you deleted everything.
 
 > ## Cloning with other protocols
 >
-> Here we assumed that you used the `ssh` method, but gitlab allows
+> Here we assumed that you used the `ssh` method, but GitLab allows
 > you to clone with `kerberos` or via `https` as well. All will work
 > equally well, your choice should be based on what you consider most
 > convenient.

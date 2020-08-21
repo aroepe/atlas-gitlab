@@ -104,7 +104,7 @@ Then we'll have to launch a docker image:
 
 ~~~
 docker run --rm -it -w /home/atlas/Bootcamp -v \
-    $PWD:/home/atlas/Bootcamp atlas/analysisbase:21.2.75 \
+    $PWD:/home/atlas/Bootcamp atlas/analysisbase:21.2.125 \
     bash -c 'cp -r ssh-credentials ~/.ssh; cp gitconfig ~/.gitconfig ; bash'
 ~~~
 {: .bash}

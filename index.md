@@ -48,4 +48,6 @@ be essential skills to anyone working in ATLAS.
 > 6.  Including code from other repositories with yours through the use of submodules
 {: .checklist}
 
+[US ATLAS Computing Workshop 2020]({{https://matthewfeickert.github.io/usatlas-computing-bootcamp-2020/}}]
+
 {% include links.md %}

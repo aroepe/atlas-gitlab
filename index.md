@@ -24,6 +24,12 @@ permalink: index.html  # Is the only page that doesn't follow the pattern /:path
 >
 {: .prereq}
 
+<div class="text-center">
+<a href="{{https://matthewfeickert.github.io/usatlas-computing-bootcamp-2020/}}">
+    <button type="button" class="btn btn-info" style="text-align:center">US ATLAS Computing Workshop 2020</button>
+</a>
+</div>
+
 Introduction
 ------------
 
@@ -48,10 +54,5 @@ be essential skills to anyone working in ATLAS.
 > 6.  Including code from other repositories with yours through the use of submodules
 {: .checklist}
 
-<div class="text-center">
-<a href="{{https://matthewfeickert.github.io/usatlas-computing-bootcamp-2020/}}">
-    <button type="button" class="btn btn-info" style="text-align:center">US ATLAS Computing Workshop 2020</button>
-</a>
-</div>
 {% include links.md %}
 

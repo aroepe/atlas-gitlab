@@ -48,7 +48,9 @@ be essential skills to anyone working in ATLAS.
 > 6.  Including code from other repositories with yours through the use of submodules
 {: .checklist}
 
-[US ATLAS Computing Workshop 2020]({{https://matthewfeickert.github.io/usatlas-computing-bootcamp-2020/}})
+<p.text-center.<a href="{{https://matthewfeickert.github.io/usatlas-computing-bootcamp-2020/}}">
+    <button type="button" class="btn btn-info">US ATLAS Computing Workshop 2020</button>
+</a></p.text-center>
 
 {% include links.md %}
-B
+

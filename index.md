@@ -7,6 +7,12 @@ permalink: index.html  # Is the only page that doesn't follow the pattern /:path
 
 {% include gh_variables.html %}
 
+<div class="text-center">
+<a href="https://urldefense.proofpoint.com/v2/url?u=https-3A__matthewfeickert.github.io_usatlas-2Dcomputing-2Dbootcamp-2D2020_&d=DwMFaQ&c=qKdtBuuu6dQK9MsRUVJ2DPXW6oayO8fu4TfEHS8sGNk&r=iUCOIf4F-Shz0fLCXgNmlaine-81S-jJCbZ4mzUe8Js&m=zP127KODA9oMd8yrk-U0Sw0CReuMURhyrrZZLJe0TRQ&s=nAtzZHy37PgYcSPEBjRdwjC4tU1XpYw61uIyig8DIXs&e=">
+    <button type="button" class="btn btn-info" style="text-align:center">US-ATLAS Computing Bootcamp 2020</button>
+</a>
+</div>
+
 > ## Prerequisites
 >
 > This assumes that you'll have some basic background with git, for example:
@@ -49,14 +55,4 @@ be essential skills to anyone working in ATLAS.
 {: .checklist}
 
 {% include links.md %}
-
--------
-
-<div class="text-center">
-Link Back to Bootcamp Material:      <a href="https://urldefense.proofpoint.com/v2/url?u=https-3A__matthewfeickert.github.io_usatlas-2Dcomputing-2Dbootcamp-2D2020_&d=DwMFaQ&c=qKdtBuuu6dQK9MsRUVJ2DPXW6oayO8fu4TfEHS8sGNk&r=iUCOIf4F-Shz0fLCXgNmlaine-81S-jJCbZ4mzUe8Js&m=zP127KODA9oMd8yrk-U0Sw0CReuMURhyrrZZLJe0TRQ&s=nAtzZHy37PgYcSPEBjRdwjC4tU1XpYw61uIyig8DIXs&e=">
-    <button type="button" class="btn btn-info" style="text-align:center">US-ATLAS Computing Bootcamp 2020</button>
-</a>
-</div>
---------
-
 

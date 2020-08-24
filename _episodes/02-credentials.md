@@ -167,6 +167,8 @@ to GitLab.
 
 ## Uploading your public key
 
+<img src="{{ page.root }}/fig/ssh-keys.png" alt="SSH Keys" width="30%" />
+
 You can upload your key [via the GitLab interface][gitlab-key]. The
 instructions there should be pretty clear: open the `.ssh/*.pub` file
 with your text editor, and copy it into the "key" field. Give the key

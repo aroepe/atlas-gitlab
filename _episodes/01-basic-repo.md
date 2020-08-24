@@ -71,7 +71,7 @@ cd ..
 > But we can continue by cloning it now and removing the `.git` directory.
 >
 > ~~~
-> git clone ssh://git@gitlab.cern.ch:7999/usatlas-computing-bootcamp-2020/v1-prework-finished-code.git 
+> git clone ssh://git@gitlab.cern.ch:7999/usatlas-computing-bootcamp-2020/v1-prework-finished-code.git pre-workshop
 rm -rf pre-workshop/.git/
 > ~~~
 > {: .source}
